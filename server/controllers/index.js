@@ -274,7 +274,7 @@ const searchDogName = (req, res) => {
     }
 
     return res.json({ name: doc.name, breed: doc.breed, age: doc.age });
-  });
+  }).age++;
 };
 
 // function to handle a request to update the last added object
